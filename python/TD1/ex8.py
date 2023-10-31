@@ -1,0 +1,6 @@
+value = float(input("Donner le nombres des bites à convertir: "))
+print(str(int(value))+ "bits = " , (value / 8) , "o")
+print(str(int(value))+ "bits = " , (value / (8 * (10 ** 3))) , "Ko")
+print(str(int(value))+ "bits = " , (value / (8 * (10 ** 6))) , "Mo")
+print(str(int(value))+ "bits = " , (value / (8 * (10 ** 9))) , "Go")
+print(str(int(value))+ "bits = " , (value / (8 * (10 ** 12))) , "To")
