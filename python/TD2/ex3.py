@@ -8,7 +8,7 @@ else:
     print("Le produit de", a, "et",b, "est negatif")
 
 # somme
-if (a > 0 and b > 0 or a > b or b > a):
+if (a > -b):
     print("La somme de", a, "et",b, "est positif")
 else:
-    print("Le produit de", a, "et", b, "est negatif")
+    print("La somme de", a, "et", b, "est negatif")

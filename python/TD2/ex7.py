@@ -1,4 +1,4 @@
-sucre = int(input("Entrer A pour vrai et 0 pour faut pour indiquant si un plat est:\n1- Sucré ou pas: "))
+sucre = int(input("Entrer 1 pour vrai et 0 pour faut pour indiquant si un plat est:\n1- Sucré ou pas: "))
 sales  = int(input("2- Salé ou pas: "))
 chaud = int(input("3- Chaud ou pas: "))
 cher = int(input("4- Cher ou pas: "))
