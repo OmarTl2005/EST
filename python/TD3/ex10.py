@@ -9,7 +9,7 @@ while(True):
         index = i + 1
 
     i += 1
-    if(i >= 3):
+    if(number == 0):
         break
 print("Le nombre maximal est:", max_number)
 print("Sont index est:", index)
