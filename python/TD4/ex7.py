@@ -53,5 +53,5 @@ sum = 0
 
 for i in range(10):
     sum = sum + matrix[i][index]
-    
+
 print("La somme des élements de colonne ou se trouve le min est:", sum)
