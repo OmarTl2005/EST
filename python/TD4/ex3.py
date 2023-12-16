@@ -3,8 +3,8 @@ from random import randint
 T = [ randint(0, 1000) for i in range(100)]
 print(T)
 
-max = 0
-min = 0
+max = T[0]
+min = T[0]
 
 for value in T:
     if(value > max):
