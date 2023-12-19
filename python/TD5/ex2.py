@@ -16,3 +16,26 @@ def bissextile(year):
     else:
         return 0
 
+mois = int(input("Saisie un mois(nombre): "))
+année = int(input("Saisie une année: "))
+
+def mois_et_année(mois, année):
+    month, year = 0, 0
+    
+    if(bissextile(année) == 1):
+        year = 366
+    else:
+        year = 365
+        month = 28
+
+    if(has30(mois) == 1):
+        month = 30
+    elif(has31(mois) == 1):
+        month = 31
+    else:
+        month = 29
+    
+    
+    print(f"L'année {année} est de {year} jours, et le mois {mois} est de {month} jours.")
+
+mois_et_année(mois, année)
